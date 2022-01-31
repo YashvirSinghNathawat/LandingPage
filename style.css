@@ -120,3 +120,23 @@ button{
     font-size: 18px;
     color: #4F5966;
 }
+.container-3{
+    background-color: #e5e7eb;
+
+}
+.container-3 .quote{ 
+    margin: 64px auto 112px auto;
+    max-width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+.container-3 .quote .text{
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
+}
+.container-3 .quote .author{
+    text-align: end;
+    font-size: 24px;
+    font-weight: 900;
+}

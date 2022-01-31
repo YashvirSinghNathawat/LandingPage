@@ -140,3 +140,36 @@ button{
     font-size: 24px;
     font-weight: 900;
 }
+.container-4 .content{
+    margin: 64px auto;
+    max-width: 45%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 36px 64px;
+    background-color: #3882f6;
+    border-radius: 6px;
+    gap: 16px;
+}
+.container-4 .content .text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-width: 80%;
+}
+.container-4 .content .text .top{
+    font-weight: 900;
+    font-size: 24px;
+}
+.container-4 .content .button{
+    display: flex;
+    align-items: center;
+}
+.container-4 .content button{
+    border: 2px solid white;
+    min-width: 108px;   
+}
+.footer .text{
+    margin: 32px auto;
+    color: white;
+    text-align: center;
+}
